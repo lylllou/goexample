@@ -18,8 +18,5 @@ jobs:
       with:
         go-version: 1.16
 
-    - name: Build
-      run: go build -v goexample.go
-
-    - name: Test
-      run: go test -v  goexample.go
+    - name: Go example
+      uses: lylllou/goexample@v2
